@@ -24,7 +24,7 @@ namespace DotnetCoreApp
             
             loggerFactory.AddConsole();
             app.UseDefaultFiles();
-            app.UseStaticFiles();
+            app.UseStaticFiles();  
             
             
 
