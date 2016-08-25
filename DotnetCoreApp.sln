@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{F381FAEC-8509-4D7E-9105-8754E227EF47}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7AB017FF-9FDF-4E9B-9073-9C9180EE2046}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "DotnetCoreApp", "src\DotnetCoreApp\DotnetCoreApp.xproj", "{2A372445-11BC-41D7-AEA2-25E0BF1676E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2A372445-11BC-41D7-AEA2-25E0BF1676E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A372445-11BC-41D7-AEA2-25E0BF1676E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A372445-11BC-41D7-AEA2-25E0BF1676E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A372445-11BC-41D7-AEA2-25E0BF1676E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{2A372445-11BC-41D7-AEA2-25E0BF1676E8} = {F381FAEC-8509-4D7E-9105-8754E227EF47}
+	EndGlobalSection
+EndGlobal
