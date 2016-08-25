@@ -3,10 +3,15 @@
     "noImplicitAny": true,
     "noEmitOnError": true,
     "sourceMap": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
     "target": "es5"
   },
   "files": [
-    "./app.ts"
+    "./app.ts",
+    "./model.ts",
+    "./main.ts",
+    "../typings/main.d.ts"
   ],
   "compileOnSave": true
 }

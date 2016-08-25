@@ -23,9 +23,9 @@ namespace DotnetCoreApp
         {
             
             loggerFactory.AddConsole();
-
+            app.UseDefaultFiles();
             app.UseStaticFiles();
-            app.UseDefaultFiles();  
+            
             
 
             if (env.IsDevelopment())
